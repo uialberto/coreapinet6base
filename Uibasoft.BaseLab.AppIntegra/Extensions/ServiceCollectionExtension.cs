@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Uibasoft.BaseLab.Domain.CustomEntities;
 
 namespace Uibasoft.BaseLab.AppIntegra.Extensions
 {
@@ -19,7 +20,9 @@ namespace Uibasoft.BaseLab.AppIntegra.Extensions
 
         public static IServiceCollection AddOptions(this IServiceCollection services, IConfiguration configuration)
         {
-          
+            services.Configure<AppSettingsConfigOptions>(options => configuration.GetSection("AppSettingsConfig").Bind(options));
+            services.Configure<ApiSecurityModuleOption>(options => configuration.GetSection("ApiSecurityModule").Bind(options));
+            services.Configure<AuthJwtOptions>(options => configuration.GetSection("AuthJwtOptions").Bind(options));
 
             return services;
         }

@@ -13,13 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Infraestructura", "04 In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConsole", "AppConsole\AppConsole.csproj", "{6D646618-8027-4118-9763-51AA1F4115CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiWeb", "ApiWeb\ApiWeb.csproj", "{50A06021-5D4A-4249-AE57-D1E962C7C2DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiWeb", "ApiWeb\ApiWeb.csproj", "{50A06021-5D4A-4249-AE57-D1E962C7C2DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.BaseLab.AppIntegra", "Uibasoft.BaseLab.AppIntegra\Uibasoft.BaseLab.AppIntegra.csproj", "{AC211642-3823-49D2-B106-93CAA214D144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uibasoft.BaseLab.AppIntegra", "Uibasoft.BaseLab.AppIntegra\Uibasoft.BaseLab.AppIntegra.csproj", "{AC211642-3823-49D2-B106-93CAA214D144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.BaseLab.Domain", "Uibasoft.BaseLab.Domain\Uibasoft.BaseLab.Domain.csproj", "{251AC4BC-7D4B-4262-BA92-4D3D3BF69F5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uibasoft.BaseLab.Domain", "Uibasoft.BaseLab.Domain\Uibasoft.BaseLab.Domain.csproj", "{251AC4BC-7D4B-4262-BA92-4D3D3BF69F5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.BaseLab.DataAccess", "Uibasoft.BaseLab.DataAccess\Uibasoft.BaseLab.DataAccess.csproj", "{8CB929F2-FBFD-4849-8420-48766CB088D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uibasoft.BaseLab.DataAccess", "Uibasoft.BaseLab.DataAccess\Uibasoft.BaseLab.DataAccess.csproj", "{8CB929F2-FBFD-4849-8420-48766CB088D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.BaseLab.Application", "Uibasoft.BaseLab.Application\Uibasoft.BaseLab.Application.csproj", "{DAC5596A-0922-4675-ADE6-A2AB955D90DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{8CB929F2-FBFD-4849-8420-48766CB088D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB929F2-FBFD-4849-8420-48766CB088D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB929F2-FBFD-4849-8420-48766CB088D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC5596A-0922-4675-ADE6-A2AB955D90DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC5596A-0922-4675-ADE6-A2AB955D90DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC5596A-0922-4675-ADE6-A2AB955D90DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC5596A-0922-4675-ADE6-A2AB955D90DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{AC211642-3823-49D2-B106-93CAA214D144} = {FD529501-4AE4-48D1-A1FF-2A6249C3F38E}
 		{251AC4BC-7D4B-4262-BA92-4D3D3BF69F5B} = {C2B4D284-45FF-4C9F-B709-A8ECFFBE8FEC}
 		{8CB929F2-FBFD-4849-8420-48766CB088D9} = {5E6AFB02-72CD-4753-AC5E-A4163AF8281C}
+		{DAC5596A-0922-4675-ADE6-A2AB955D90DC} = {FD529501-4AE4-48D1-A1FF-2A6249C3F38E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB0659B2-9EDB-4A59-9B6E-55DD3957F99E}
