@@ -1,0 +1,39 @@
+﻿<div class="container-fluid text-center">
+    <p class="text-center footer-app">
+        <span class="text-muted">
+            Server: @Environment.MachineName |  &copy; @DateTime.Now.Year - API CORE  | <span style="font-weight: bold">
+                Version:
+                <a class="danger text-decoration-none" style="text-decoration:underline;" data-bs-placement="above" data-bs-toggle="modal" data-bs-target="#modal-ver-api" href="#" title='Versiones '>1.0.0</a>
+            </span>  |
+         </span>Environment:
+        <span class="text-muted" style="font-weight: bold;">  @Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") </span>
+    </p>
+</div>
+
+<div id="modal-ver-api" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">API Versiónes de Publicación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">               
+                <h3 style="padding: 4px; font-size: 11pt; text-align: right;">
+                    <span style="color: #afa7a7">2022-01-01</span> <strong style="color: #666666">Versión 1.0.0</strong>
+                </h3>
+                <ul class="">
+                    <li class="">
+                        <strong>01/01/2022</strong>
+                        <ul>
+                            <li>Creación y Configuracion Inicial de Proyecto</li>
+                            <li>Definicion de Arquitectura de Proyectos</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

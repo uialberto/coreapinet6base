@@ -29,4 +29,10 @@
     <ProjectReference Include="..\Uibasoft.BaseLab.AppIntegra\Uibasoft.BaseLab.AppIntegra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Responses\Parametros\" />
+    <Folder Include="Validators\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
 </Project>

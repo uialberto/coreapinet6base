@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alberto Baigorria">
+    <title>@ViewData["Title"] - API Core</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light bg-white border-3 border-bottom box-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">API CORE</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navega">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="menu-navega" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="swagger" asp-action="index">Documentacion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <div class="container-fluid">
+        <main role="main" class="pb-4 py-5">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer mt-auto py-4 bg-light text-muted">
+
+        @Html.Partial("_Footers");
+
+    </footer>
+
+
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
