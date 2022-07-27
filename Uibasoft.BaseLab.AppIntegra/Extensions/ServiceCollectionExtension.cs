@@ -38,7 +38,7 @@ namespace Uibasoft.BaseLab.AppIntegra.Extensions
         {
             services.AddSwaggerGen(doc =>
             {
-                doc.SwaggerDoc("v1", new OpenApiInfo { Title = "API LAB", Version = "v1" });
+                doc.SwaggerDoc("v1", new OpenApiInfo { Title = "API BASE", Version = "v1" });
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFileName);
                 doc.IncludeXmlComments(xmlPath);
 

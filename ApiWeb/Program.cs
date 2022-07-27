@@ -118,7 +118,7 @@ try
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("../swagger/v1/swagger.json", "API LAB v1");
+        options.SwaggerEndpoint("../swagger/v1/swagger.json", "V1");
     });
 
     app.UseStaticFiles();
